@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Persönliche Laufzeitdaten
+/tasks.db
+/tasks.db-*
+/tasks.before-*.db
+/backups/
+*.db-wal
+*.db-shm
+
+# Lokale Streamlit-Geheimnisse
+.streamlit/secrets.toml
+
+# Temporäre Test- und Editor-Dateien
+/tests/navigation_*/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
